@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    margin-top: 47px;
+
+    background-image: url(../../assets/decore-hero.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1160px;
+}
+
+.logo {
+    width: 115px;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #212832;
+}
+
+.sign-up {
+    padding: 9px 22px;
+    border: 1px solid #212832;
+    border-radius: 5px;
+}
+
+#languages {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #212832;
+    background: transparent;
+}
