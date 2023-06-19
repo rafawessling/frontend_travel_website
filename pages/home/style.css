@@ -378,3 +378,166 @@ main {
     z-index: 1;
     margin: 0 10px 0 20px;
 }
+
+.easy-and-fast {
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+
+    width: 100vw;
+    margin-top: 180px;
+}
+
+.text-easy-and-fast {
+    margin-left: 60px;
+}
+
+.text-easy-and-fast h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #5e6282;
+}
+
+.text-easy-and-fast h1 {
+    width: 511px;
+    margin: 15px 0 30px 0;
+
+    font-family: 'Volkhov';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-transform: capitalize;
+
+    color: #14183e;
+}
+
+.items-easy-fast-section {
+    display: flex;
+    gap: 21px;
+
+    width: 395px;
+}
+
+.items-easy-fast-section span {
+    margin-bottom: 4px;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 124.5%;
+
+    color: #5e6282;
+}
+
+.items-easy-fast-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 124.5%;
+
+    color: #5e6282;
+}
+
+.items-easy-fast-section img {
+    height: 48px;
+}
+
+.item01,
+.item02 {
+    margin-bottom: 48px;
+}
+
+.item03 {
+    margin-bottom: 200px;
+}
+
+.cards-easy-and-fast {
+    display: flex;
+    justify-content: center;
+}
+
+.card-trip-to-greece {
+    width: 370px;
+    height: 400px;
+    margin-top: 60px;
+    z-index: 1;
+
+    background-color: #ffffff;
+    box-shadow: rgba(89, 177, 230, 0.3) 10px -20px 60px -10px,
+        rgba(89, 177, 230, 0.04) 5px -70px 50px -10px,
+        rgba(0, 0, 0, 0.06) 0px 100px 80px;
+    border-radius: 26px;
+}
+
+.image-card {
+    margin: 20px 0 26px 25px;
+}
+
+.title-card {
+    margin-left: 25px;
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124.5%;
+    letter-spacing: 0.015em;
+
+    color: #080809;
+}
+
+.card-trip-to-greece p {
+    margin: 13px 0 21px 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+
+    color: #84829a;
+}
+
+.icons-card {
+    display: flex;
+    gap: 18px;
+
+    margin: 0 0 30px 25px;
+}
+
+.visualization-trip {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124.5%;
+    letter-spacing: -0.02em;
+
+    color: #84829a;
+}
+
+.visualization-trip div {
+    display: flex;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.card-ongoing {
+    width: 263px;
+    height: 129px;
+    margin: 280px 0 0 -150px;
+    z-index: 2;
+
+    background: #ffffff;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+        0px 20px 13px rgba(0, 0, 0, 0.01),
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 18px;
+}
