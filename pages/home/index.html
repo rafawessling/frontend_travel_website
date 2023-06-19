@@ -6,7 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Poppins:wght@500;600;700&family=Volkhov:wght@700&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./style.css" />
@@ -20,12 +20,16 @@
             /></a>
             <nav class="nav-bar">
                 <ul>
-                    <li><a href="#">Destinations</a></li>
-                    <li><a href="#">Hotels</a></li>
-                    <li><a href="#">Flights</a></li>
-                    <li><a href="#">Bookings</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li class="sign-up"><a href="#">Sign up</a></li>
+                    <li>
+                        <a class="options-nav-bar" href="#">Destinations</a>
+                    </li>
+                    <li><a class="options-nav-bar" href="#">Hotels</a></li>
+                    <li><a class="options-nav-bar" href="#">Flights</a></li>
+                    <li><a class="options-nav-bar" href="#">Bookings</a></li>
+                    <li><a class="options-nav-bar" href="#">Login</a></li>
+                    <li class="sign-up">
+                        <a class="options-nav-bar" href="#">Sign up</a>
+                    </li>
                     <li>
                         <select name="languages" id="languages">
                             <option value="0">EN</option>
@@ -40,6 +44,8 @@
             </nav>
         </header>
         <main>
+            <section class="background-hero"></section>
+
             <div class="text-main">
                 <h3>Best Destinations around the world</h3>
                 <h1>Travel, enjoy and live a new and full life</h1>
@@ -49,13 +55,18 @@
                     sell they west hard for the.
                 </p>
                 <div class="buttons-main">
-                    <button class="find-out-button">Find out more</button>
+                    <a href="#"
+                        ><button class="find-out-button">
+                            Find out more
+                        </button></a
+                    >
                     <div class="play-button">
-                        <img
-                            class="play-icon"
-                            src="../../assets/icons/play-button.png"
-                            alt=""
-                        />
+                        <a href="#"
+                            ><img
+                                class="play-icon"
+                                src="../../assets/icons/play-button.png"
+                                alt=""
+                        /></a>
                         <span>Play Demo</span>
                     </div>
                 </div>
@@ -66,5 +77,50 @@
                 alt=""
             />
         </main>
+        <section class="category">
+            <h3>Category</h3>
+            <h1>We Offer Best Services</h1>
+            <section class="cards-category">
+                <div class="card-category">
+                    <div class="orange-background"></div>
+                    <img
+                        src="../../assets/icons/calculated-weather.png"
+                        alt=""
+                    />
+                    <span>Calculated Weather</span>
+                    <p>
+                        Built Wicket longer admire do barton vanity itself do in
+                        it.
+                    </p>
+                </div>
+                <div class="card-category">
+                    <div class="orange-background"></div>
+                    <img src="../../assets/icons/best-flights.png" alt="" />
+                    <span>Best Flights</span>
+                    <p>
+                        Engrossed listening. Park gate sell they west hard for
+                        the.
+                    </p>
+                </div>
+                <div class="card-category">
+                    <div class="orange-background"></div>
+                    <img src="../../assets/icons/local-events.png" alt="" />
+                    <span>Local Events</span>
+                    <p>
+                        Barton vanity itself do in it. Preferd to men it
+                        engrossed listening.
+                    </p>
+                </div>
+                <div class="card-category">
+                    <div class="orange-background"></div>
+                    <img src="../../assets/icons/customization.png" alt="" />
+                    <span>Customization</span>
+                    <p>
+                        We deliver outsourced aviation services for military
+                        customers.
+                    </p>
+                </div>
+            </section>
+        </section>
     </body>
 </html>
